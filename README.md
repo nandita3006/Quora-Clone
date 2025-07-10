@@ -1,69 +1,33 @@
-# React + TypeScript + Vite
+# Quora Clone 🧠🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional Quora-inspired Q&A web application built with **React**, **Vite**, **TypeScript**, and **Firebase**. This project allows users to ask questions, post answers, upvote, comment, and engage in meaningful discussions.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React + Vite + TypeScript
+- **Backend / Auth / DB:** Firebase (Authentication, Firestore, Hosting)
+- **Styling:** Tailwind CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧩 Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 🔐 **Authentication** – Sign up / Sign in using Google or Email via Firebase
+- ✍️ **Ask Questions** – Post your doubts or thoughts publicly
+- 💬 **Answer & Comment** – Interact with others through answers and threaded comments
+- 👍 **Upvote System** – Upvote helpful questions and answers
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshots
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/f87ef6b3-b721-4479-ac3f-32c2470c2f2a" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/6934cb4f-25ef-4176-90c6-a1b8209e3ca7" />
+<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/19ed9450-87f5-497d-bd68-cd736cd6d49c" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/126939b3-d04b-4f5e-95a5-8f9cfcc80010" />
+
+
+
+
