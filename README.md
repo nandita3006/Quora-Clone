@@ -27,6 +27,9 @@ A fully functional Quora-inspired Q&A web application built with **React**, **Vi
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/6934cb4f-25ef-4176-90c6-a1b8209e3ca7" />
 <img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/19ed9450-87f5-497d-bd68-cd736cd6d49c" />
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/126939b3-d04b-4f5e-95a5-8f9cfcc80010" />
+<img width="1919" height="999" alt="image" src="https://github.com/user-attachments/assets/722a5d2a-2815-4d64-83ed-c801e3b5daf0" />
+
+
 
 
 
